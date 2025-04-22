@@ -1,0 +1,6 @@
+git branch                      # lists the local branches
+git branch -r                   # lists the remote branches
+git checkout development        # will create a new development locally but will not copy the remote branch
+git checkout -b development     # will create a new development branch lovally and copy the remote development branch
+
+# if you forget the -b when checking out a branch then use git pull
